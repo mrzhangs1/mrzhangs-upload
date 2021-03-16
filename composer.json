@@ -1,0 +1,23 @@
+{
+    "name": "mrzhangs/mrzhangs-upload",
+    "description": "oss",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhangshichuan",
+            "email": "992013610@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MrZhangs\\": "src/",
+            "": "extend/"
+        },
+        "files": [
+            "supper/Helper.php"
+        ]
+    }
+}
